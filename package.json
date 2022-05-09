@@ -1,0 +1,25 @@
+{
+  "name": "fortune-cookie-seeker-chrome-extension",
+  "version": "0.1.0",
+  "description": "Catch and open fortune cookies hidden throughout the web. Complementary cookies available daily!",
+  "private": "false",
+  "repository": "https://github.com/Elitezen/fortune-cookie-seeker-chrome-extension",
+  "scripts": {
+    "watch": "webpack --mode=development --watch --config config/webpack.config.js",
+    "build": "webpack --mode=production --config config/webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.10.1",
+    "size-plugin": "^2.0.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "fortune-cookie-generator": "^1.0.0",
+    "jquery": "^3.6.0"
+  }
+}

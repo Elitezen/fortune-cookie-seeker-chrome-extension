@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Chrome Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body style="min-width: 600px">
+  <div class="app">
+    <header>
+      <h1>
+        Fortune Cookie Seeker
+      </h1>
+    </header>
+    <main>
+      <img 
+        id="cookie-img"
+        src="https://cdn-icons-png.flaticon.com/512/1471/1471406.png"
+        alt="fortune cookie"
+        draggable="false"
+      />
+
+      <button id="open-cookie-btn">
+        No Cookie Found
+      </button>
+    </main>
+    <footer>
+      You will be notified when a cookie has been found.
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
